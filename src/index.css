@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Vazirmatn", "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Natural Tones Custom Theme Variables mapping */
+  --color-sand: #FDFCF7;
+  --color-ink: #1F2937;
+  
+  /* Emerald Palette Tuned to #065F46 */
+  --color-emerald-50: #f0fbf7;
+  --color-emerald-100: #e6f7ec;
+  --color-emerald-200: #c2eed3;
+  --color-emerald-300: #88dda3;
+  --color-emerald-400: #46c373;
+  --color-emerald-500: #065F46;
+  --color-emerald-600: #044b37;
+  --color-emerald-700: #033c2c;
+  --color-emerald-800: #022f22;
+  --color-emerald-900: #011f16;
+  --color-emerald-950: #00100b;
+
+  /* Ocean Palette Tuned to #0369A1 */
+  --color-sky-50: #f0f9ff;
+  --color-sky-100: #e0f2fe;
+  --color-sky-200: #bae6fd;
+  --color-sky-300: #7dd3fc;
+  --color-sky-400: #38bdf8;
+  --color-sky-500: #0369A1;
+  --color-sky-600: #02598a;
+  --color-sky-700: #014368;
+  --color-sky-800: #012d46;
+  --color-sky-900: #001e2f;
+
+  --color-blue-50: #f0f9ff;
+  --color-blue-100: #e0f2fe;
+  --color-blue-200: #bae6fd;
+  --color-blue-300: #7dd3fc;
+  --color-blue-400: #38bdf8;
+  --color-blue-500: #0369A1;
+  --color-blue-600: #02598a;
+  --color-blue-700: #014368;
+
+  /* Warm Orange Palette Tuned to #EA580C */
+  --color-orange-50: #fff7ed;
+  --color-orange-100: #ffedd5;
+  --color-orange-200: #fed7aa;
+  --color-orange-300: #fdba74;
+  --color-orange-400: #fb923c;
+  --color-orange-500: #EA580C;
+  --color-orange-600: #c2410c;
+  --color-orange-700: #9a3412;
+  --color-orange-800: #7c2d12;
+  --color-orange-900: #431407;
+
+  /* Slate Map to Warm Slate/Earth Sands for Natural Earthy Tones */
+  --color-slate-50: #FDFCF7;
+  --color-slate-100: #F5F3EC;
+  --color-slate-200: #E6E1D3;
+  --color-slate-300: #C7BFAB;
+  --color-slate-400: #A39981;
+  --color-slate-500: #7E735D;
+  --color-slate-600: #5C5240;
+  --color-slate-700: #42392B;
+  --color-slate-800: #29231A;
+  --color-slate-900: #1F2937;
+  --color-slate-950: #121820;
+}
+
+body {
+  background-color: #FDFCF7 !important;
+  color: #1F2937 !important;
+}
+
+/* Custom styles for animations & scroll behaviors */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background-color: rgba(253, 252, 247, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.dark-glass-panel {
+  background-color: rgba(6, 95, 70, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

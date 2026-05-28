@@ -1,0 +1,6 @@
+{
+  "name": "SustainaPulse",
+  "description": "پلتفرم زیست‌مانا (SustainaPulse) - سامانه‌ی هوشمند پایش و ترویج سبک زندگی پایدار، انرژی‌های پاک و توسعه سبز",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
